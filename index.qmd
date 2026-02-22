@@ -1,0 +1,641 @@
+---
+title: Conducting an Effective Literature Review
+author: "Dr. Ajay Kumar Koli, PhD"
+format: 
+    revealjs:
+        title-slide-attributes: 
+            data-background-image: "https://images.unsplash.com/photo-1468476775582-6bede20f356f?q=80&w=1489&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            data-background-size: cover
+            data-background-position: center
+logo: images/logo-gju.png
+slide-number: true
+progress: true
+revealjs-plugins:
+    - editable
+filters: 
+    - editable
+    - reveal-auto-agenda
+    - roughnotation
+incremental: false   
+lightbox: true
+---
+
+```{r}
+#| include: false
+
+library(countdown)
+```
+
+## About me
+
+::: {.columns}
+::: {.column width="50%"}
+Data Science & Research Educator
+
+Exec. Director, [SARA]{.rn-fragment rn-color=skyblue}
+:::
+::: {.column width="50%" style="text-align: center;"}
+![](images/ajay.jpeg){fig-alt="Sara's headshot" fig-align="center" width=250px style="border-radius: 50%;"}
+
+**Dr. Ajay Kumar Koli**
+
+
+[{{< fa brands github >}} \@koliajaykr](https://github.com/koliajaykr)
+
+[{{< fa brands linkedin >}} ajay-kumar-koli](https://www.linkedin.com/in/ajay-kumar-koli/)
+
+
+:::
+:::
+<!-- end columns -->
+
+## Quick Logistics:
+
+1. Please keep [yourself muted]{.rn-fragment rn-color=tomato} unless speaking
+
+1. Use [chat for questions]{.rn-fragment rn-color=lightgreen} - I will monitor throughout
+
+1. We will have 2-3 [interactive activities]{.rn-fragment rn-color=lavender}
+
+1. All [slides]() will be [shared]{.rn-fragment rn-color=orange} after the session
+
+::: notes
+Note slide number
+:::
+
+## Your Turn: Poll 1 {background-color="#10655C"}
+
+[***Have you written a literature review before?***]{.r-fit-text}
+
+![Scan or click below link to see website](images/poll1.png){width="30%" fig-align="left"}
+
+::: aside
+<https://linkto.run/p/3E839J93>
+:::
+
+```{r}
+#| echo: false
+
+countdown(minutes = 2)
+```
+
+## Your Turn: Poll 2  {background-color="#10655C"}
+
+[***What's your biggest literature review challenge?***]{.r-fit-text}
+
+![Scan or click below link to see website](images/poll2.png){width="30%" fig-align="left"}
+
+::: aside
+<https://linkto.run/p/6KYDYNER>
+:::
+
+```{r}
+#| echo: false
+
+countdown(minutes = 2)
+```
+
+## {background-color="black"} 
+
+<center>
+
+<br>
+<br>
+
+::: {.r-stack}
+![](images/meme-article.jpg){.fragment width="40%"}
+
+![](images/meme-snow.jpg){.fragment width="400"}
+
+![](images/meme-digging.gif){.fragment width="550"}
+:::
+
+# Introduction & Foundations {background-color="#041614"}
+
+## What is a Literature Review?
+
+. . .
+
+### ❌ What it is not:
+
+::: {.incremental}
+- [An annotated bibliography.]{.rn-fragment rn-type=strike-through rn-color=tomato}
+- [A list of summaries : "Author A said X, Author B said Y".]{.rn-fragment rn-type=strike-through rn-color=tomato}  
+- [A comprehensive catalog of everything ever written on a topic.]{.rn-fragment rn-type=strike-through rn-color=tomato} 
+- [Book reports strung together.]{.rn-fragment rn-type=strike-through rn-color=tomato} 
+:::
+
+## What is a Literature Review?
+
+### ✅ What it is:
+
+::: {.incremental}
+- [**Critical**]{.rn-fragment rn-color=lightgreen} analysis of existing research.
+- [**Synthesis**]{.rn-fragment rn-color=lightgreen} that creates new understanding.
+- An [**argument**]{.rn-fragment rn-color=lightgreen} about the state of knowledge.
+- A foundation that [**justifies**]{.rn-fragment rn-color=lightgreen} YOUR research.
+:::
+
+## The Formula {background-color="lavender"}
+
+<br>
+<br>
+<br>
+
+<center>
+
+::: {.columns}
+::: {.column}
+::: {.fragment .grow .semi-fade-out}
+Effective Literature Review $=$
+:::
+:::
+
+::: {.column}
+::: {.fragment .grow .semi-fade-out}
+Crtical Analysis $+$
+:::
+
+::: {.fragment .grow .semi-fade-out}
+Synthesis $+$
+:::
+
+::: {.fragment .grow .semi-fade-out}
+Argumentation
+:::
+:::
+:::
+<!-- end columns -->
+
+## Example Comparison
+
+::: {.panel-tabset}
+
+### ❌ **POOR**
+[**Summary approach:**]{.rn-fragment rn-type=strike-through rn-strokeWidth=5 rn-color=red} Smith (2020) found that online learning was effective. Jones (2021) also studied online learning and found it helped students. Kumar (2022) researched remote education and discovered benefits.
+
+### ✅ **GOOD** 
+[**Synthesis approach:**]{.rn-fragment rn-color=lightgreen} Research consistently demonstrates the effectiveness of online learning, though results vary by context (Smith, 2020; Jones, 2021; Kumar, 2022). While undergraduate populations show positive outcomes, graduate-level effectiveness remains underexplored, particularly in professional education (Lee, 2023).
+
+:::
+
+## Your Turn {background-color="#10655C"}
+
+<br>
+
+### *Quick Chat Check*
+
+<br>
+
+**Type in chat: What's ONE word that captures the difference between these two approaches?**
+
+```{r}
+#| echo: false
+
+countdown(minutes = 2)
+```
+
+# Research Questions & Scope {background-color="#041614"}
+
+## The Foundation - Research Question {.smaller}
+
+<br>
+<br>
+
+<center>
+
+::: {.fragment .grow .semi-fade-out}
+Broad Topic   
+$\downarrow$
+:::
+
+::: {.fragment .grow .semi-fade-out}
+Research Area      
+$\downarrow$
+:::
+
+::: {.fragment .grow .semi-fade-out}
+Specific Question         
+$\downarrow$
+:::
+
+::: {.fragment .grow .semi-fade-out}
+Literature Review Scope        
+:::
+
+## {.scrollable}
+
+```{mermaid}
+flowchart LR
+    A{Broad Topic:} --> B(Education)
+```
+
+. . .
+
+```{mermaid}
+flowchart LR
+    C{Research Area:} --> D(Data science education<br>for social scientists)
+```
+
+. . .
+
+```{mermaid}
+flowchart LR
+    E{Specific Question:} --> F(What pedagogical approaches are most<br>effective for teaching R language<br>to graduate students in soical sciences?)
+```
+
+. . .
+
+```{mermaid}
+flowchart LR
+    G{Literature Review Focus:} --> H(R programming pedagogy<br>Statistical software learning in social sci.<br>Graduate level quantitative training<br>Adult learning theory for technical skills)
+```
+
+## Good Research Questions
+
+::: {.incremental}
+- [**Specific:**]{.rn-fragment rn-color=lightgreen} Not "Is online learning good?" but "Does online instruction improve statistical reasoning skills in undergraduate psychology students?".
+- [**Answerable:**]{.rn-fragment rn-color=lightgreen} Can be addressed through research.
+- [**Significant:**]{.rn-fragment rn-color=lightgreen} Matters to your field.
+- [**Novel:**]{.rn-fragment rn-color=lightgreen} Addresses a gap or extends existing work.
+:::
+
+## Questions to Ask Yourself
+
+::: {.incremental}
+1. What [**EXACTLY**]{.rn-fragment rn-color=lavender} am I trying to find out?
+1. What do I [**NEED**]{.rn-fragment rn-color=lavender} to know to answer this?
+1. What are the [**KEY CONCEPTS**]{.rn-fragment rn-color=lavender} in my question?
+1. What [**DISCIPLINES**]{.rn-fragment rn-color=lavender} might have relevant literature?
+1. What's my [**TIME FRAME**]{.rn-fragment rn-color=lavender} of interest?
+:::
+
+## Common Inclusion/Exclusion Criteria {.scrollable}
+
+::: {.incremental}
+1. [**Time Period**]{.rn-fragment rn-color=lightgreen} 
+    - Last 5 years? 10 years? 20 years?
+    - Include seminal older works?
+
+1. [**Publication Type**]{.rn-fragment rn-color=lightgreen}
+    - Peer-reviewed journals only?
+    - Include books, dissertations, conference papers?
+    - Grey literature (reports, working papers)?
+
+1. [**Geography/Context**]{.rn-fragment rn-color=lightgreen}
+    - Specific countries or regions?
+    - Global scope?
+    - Cultural context matters?
+
+1. [**Methodology**]{.rn-fragment rn-color=lightgreen}
+    - Quantitative, qualitative, mixed methods?
+    - Specific research designs (experiments, surveys, ethnography)?
+    - Theoretical vs. empirical?
+
+1. [**Language**]{.rn-fragment rn-color=lightgreen}
+    - English only?
+    - Multiple languages if you can access/read them?
+
+1. [**Quality Indicators**]{.rn-fragment rn-color=lightgreen}
+    - High-impact journals?
+    - Methodological rigor standards?
+    - Citation count thresholds?
+:::
+
+## Pro Tip: [Document]{.rn-fragment rn-color=orange rn-type=box} your criteria!
+
+::: {.incremental}
+- Keep a methods log.
+- You'll need to justify them later.
+- Helps you stay consistent.
+- Makes your review reproducible.
+:::      
+
+# Reading & Analysis Strategies {background-color="#041614"}
+
+## Strategic Reading
+
+<br>
+
+> Not all papers deserve equal time.
+
+<br>
+
+. . .
+
+> Strategic reading means knowing WHEN to [**skim**]{.rn-fragment}, when to read [**carefully**]{.rn-fragment}, and when to study [**deeply**]{.rn-fragment}.
+
+## [Pass 1: SKIM]{.rn-fragment rn-color=lightgreen} (5-10 minutes per paper) 
+
+::: {.incremental}
+
+- [**Read:**]{.rn-fragment rn-color=lightgreen} Title, Abstract, Introduction (first few paragraphs), Conclusion
+- [**Scan:**]{.rn-fragment rn-color=lightgreen} Section headings, figures, tables
+- [**Decision:**]{.rn-fragment rn-color=lightgreen} Is this relevant to my question? Keep or discard?
+- [**Outcome:**]{.rn-fragment rn-color=lightgreen} Sort into "Highly Relevant," "Moderately Relevant," "Not Relevant"
+
+:::
+
+## [Pass 2: ACTIVE READING]{.rn-fragment rn-color=orange} (20-30 minutes per paper) {.smaller}
+
+- [**Do this for:**]{.rn-fragment rn-color=orange} "Highly Relevant" papers
+- [**Read:**]{.rn-fragment rn-color=orange} Full paper but strategically
+    - Introduction: What's the question and why does it matter?
+    - Methods: How did they study it? Appropriate?
+    - Results: What did they find? (Read carefully)
+    - Discussion: What do THEY think it means?
+- [**Action:**]{.rn-fragment rn-color=orange} Highlight key points, take structured notes
+- [**Ask:**]{.rn-fragment rn-color=orange} What's the main contribution? How does this relate to MY question?
+
+## [Pass 3: DEEP READING]{.rn-fragment rn-color=tomato} (1-2 hours per paper) {.smaller}
+
+- [**Do this for:**]{.rn-fragment rn-color=tomato} 5-10 most critical papers
+- [**Read:**]{.rn-fragment rn-color=tomato} Every word, every citation, every detail
+- [**Action:**]{.rn-fragment rn-color=tomato}
+    - Detailed notes on methodology
+    - Critique strengths and limitations
+    - Follow up on key citations
+    - Connect to theoretical frameworks
+- [**Ask:**]{.rn-fragment rn-color=tomato} Can I reproduce their logic? What are unstated assumptions?
+
+## The Cornell Note-Taking System {background-color="black"}
+
+![](https://cdn.prod.website-files.com/622072bb15578473cfe8ef5a/66a0ce8b872d465d063e2ee2_IMG_0069.jpg){width="35%" fig-align="center"}
+
+::: {.aside}
+Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
+:::
+
+## The Cornell Note-Taking System {background-color="black"}
+
+![](https://cdn.prod.website-files.com/622072bb15578473cfe8ef5a/66a0ce99e47e489d108664fd_IMG_0070.jpg){width="35%" fig-align="center"}
+
+::: {.aside}
+Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
+:::
+
+## Key Principles {.scrollable}
+
+1. [**Consistency**]{.rn-fragment rn-type=box rn-color=green}
+    - Use the same format for every paper
+    - Makes it easier to compare and synthesize later
+
+1. [**Distinguish**]{.rn-fragment rn-type=box rn-color=green}
+    - Author's words (mark as quotes with page numbers)
+    - Your paraphrase (cite but no quotes)
+    - Your own analysis/thoughts (clearly marked)
+    - This prevents accidental plagiarism
+
+1. [**Action-Oriented**]{.rn-fragment rn-type=box rn-color=green}
+    - Always note: "How does this relate to MY research?"
+    - Tag by themes you're seeing emerge
+
+1. [**Connected**]{.rn-fragment rn-type=box rn-color=green}
+    - Note relationships to other papers
+    - Build your own web of literature
+
+## [Pro Tips ✅ DO:]{.rn-fragment rn-color=lightgreen}
+
+- Take [**notes immediately**]{.rn-fragment rn-color=lightgreen} after reading (while fresh)
+- Always [**include page**]{.rn-fragment rn-color=lightgreen} numbers for quotes
+- [**Tag/categorize**]{.rn-fragment rn-color=lightgreen} by emerging themes
+- Note your [**gut reactions**]{.rn-fragment rn-color=lightgreen} and questions
+
+## [Pro Tips ❌ DON'T:]{.rn-fragment rn-color=tomato}
+
+- Just highlight in the [**PDF**]{.rn-fragment rn-color=tomato} (you'll never look again)
+- Rely on [**memory**]{.rn-fragment rn-color=tomato} (you'll forget)
+- [**Copy**]{.rn-fragment rn-color=tomato} large chunks without paraphrasing (plagiarism risk)
+- Wait until you've [**read 20 papers**]{.rn-fragment rn-color=tomato} to start taking notes (overwhelming)
+
+# Synthesis & Argumentation {background-color="#041614"}
+
+## Summary vs. Synthesis
+
+> This is where most literature reviews fail.
+
+## Summary (What people often do) {.smaller}
+
+::: {.columns}
+::: {.column}
+::: {.fragment .fade-in-then-semi-out}
+[Smith (2020) studied online learning and found it was effective for
+engineering students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
+
+[Jones (2021) examined remote education and discovered that students
+appreciated flexibility.]{.rn-fragment rn-type=strike-through rn-color=tomato}
+
+[Kumar (2022) investigated virtual classrooms and showed improved
+access for rural students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
+:::
+:::
+
+::: {.column}
+::: {.fragment .fade-in}
+#### What's [wrong]{.rn-fragment rn-color=tomato}?
+::: {.incremental}
+- Each paper treated separately
+- No connections between studies
+- No pattern recognition
+- No critical evaluation
+- No argument
+- Boring to read!
+:::
+:::
+:::
+:::
+<!-- end columns -->
+
+## Synthesis (What you should do) {.smaller}
+
+::: {.columns}
+::: {.column}
+::: {.fragment .fade-in-then-semi-out}
+[Research consistently demonstrates benefits of online learning, though these vary by context and outcome measure. Effectiveness studies show positive learning outcomes in STEM fields (Smith, 2020; Lee, 2021), while access studies highlight particular benefits for geographically isolated students (Kumar, 2022; Wang, 2023). However, most existing research focuses on undergraduate populations in North American contexts, leaving gaps in our understanding of graduate-level online learning in the Global South (Jones, 2021).]{.rn-fragment rn-type=bracket rn-color=green}
+:::
+:::
+
+::: {.column}
+::: {.fragment .fade-in}
+#### What makes this [synthesis]{.rn-fragment rn-color=lightgreen}?
+::: {.incremental}
+- Groups studies by theme (effectiveness vs. access)
+- Identifies patterns (STEM, undergraduate focus)
+- Notes contradictions or variations
+- Identifies gaps
+- Builds toward a point (justifies new research)
+:::
+:::
+:::
+:::
+<!-- end columns -->
+
+## Synthesis Verbs
+
+> [Showing agreement/patterns:]{.rn-fragment}
+
+::: {.incremental}
+- "Studies consistently find..."
+- "Converging evidence suggests..."
+- "Across multiple contexts..."
+- "Supporting this view..."
+:::
+
+## Synthesis Verbs
+
+> [Showing contradiction/debate:]{.rn-fragment}
+
+::: {.incremental}
+- "While some studies show X, others demonstrate Y..."
+- "Contradicting these findings..."
+- "This debate centers on..."
+- "Results remain mixed regarding..."
+:::
+
+## Synthesis Verbs
+
+> [Showing progression:]{.rn-fragment}
+
+::: {.incremental}
+- "Early research focused on X, but recent studies..."
+- "Building on this work..."
+- "Extending these findings..."
+- "Contemporary research has shifted toward..."
+:::
+
+## Synthesis Verbs
+
+> [Showing gaps:]{.rn-fragment}
+
+::: {.incremental}
+- "Despite extensive research on X, Y remains underexplored..."
+- "Little attention has been paid to..."
+- "What remains unclear is..."
+- "Missing from this literature is..."
+:::
+
+## [Themes]{.rn-fragment rn-color=orange} are:
+
+::: {.incremental}
+- Similar findings across multiple studies
+- Recurring debates or disagreements
+- Different theoretical perspectives
+- Methodological approaches
+- Contextual patterns
+- Conceptual frameworks used
+:::
+
+## Common Organization Strategies
+
+> [**THEMATIC:**]{.rn-fragment rn-color=lavender} (most common) Organize by topics/themes
+
+::: {.incremental}
+- Theme 1: Effectiveness factors
+- Theme 2: Design considerations
+- Theme 3: Equity issues
+- Gaps and future directions
+:::
+
+## Common Organization Strategies
+
+> [**CHRONOLOGICAL:**]{.rn-fragment rn-color=lavender} Organize by time periods
+
+::: {.incremental}
+- Early research (1990-2005)
+- Emergence (2005-2015)
+- Contemporary (2015-present)
+- Gaps and trends
+:::
+
+## Common Organization Strategies
+
+> [**METHODOLOGICAL:**]{.rn-fragment rn-color=lavender} Organize by research methods
+
+::: {.incremental}
+- Quantitative studies
+- Qualitative studies
+- Mixed methods
+- Methodological gaps
+:::
+
+## Common Organization Strategies
+
+> [**THEORETICAL:**]{.rn-fragment rn-color=lavender} Organize by frameworks
+
+::: {.incremental}
+- Behavioral theories
+- Constructivist perspectives
+- Sociocultural approaches
+- Integrated framework
+:::
+
+# Writing & Structure {background-color="#041614"}
+
+## Academic Voice/Language
+
+- Maintain third person (avoid "I think")
+- Be authoritative but not absolute
+- Use appropriate hedging: "suggests," "indicates," "appears to"
+
+## Top ❌ 10 Mistakes to Avoid {.scrollable}
+
+::: {.incremental}
+
+1. [[**Listing studies without synthesis:**]{.rn-fragment rn-color=tomato rn-type=circle} "Author A said X. Author B said Y."]{.fragment .fade-in-then-semi-out}
+1. [[**Being too broad or too narrow:**]{.rn-fragment rn-color=tomato rn-type=circle} Balance comprehensiveness with focus]{.fragment .fade-in-then-semi-out}
+1. [[**Lack of clear organization:**]{.rn-fragment rn-color=tomato rn-type=circle} Random order confuses readers]{.fragment .fade-in-then-semi-out}
+1. [[**Uncritical acceptance:**]{.rn-fragment rn-color=tomato rn-type=circle} Evaluate, don't just report]{.fragment .fade-in-then-semi-out}
+1. [[**Ignoring contradictions:**]{.rn-fragment rn-color=tomato rn-type=circle} Address conflicting findings]{.fragment .fade-in-then-semi-out}
+1. [[**No clear argument/thread:**]{.rn-fragment rn-color=tomato rn-type=circle} Every section should build toward your gap]{.fragment .fade-in-then-semi-out}
+1. [[**Outdated sources:**]{.rn-fragment rn-color=tomato rn-type=circle} Include recent work (unless historical review)]{.fragment .fade-in-then-semi-out}
+1. [[**Missing seminal works:**]{.rn-fragment rn-color=tomato rn-type=circle} Know the classics in your field]{.fragment .fade-in-then-semi-out}
+1. [[**Poor citation practices:**]{.rn-fragment rn-color=tomato rn-type=circle} Be consistent and accurate]{.fragment .fade-in-then-semi-out}
+1. [[**Failing to identify gaps:**]{.rn-fragment rn-color=tomato rn-type=circle} The whole point is finding what's missing!]{.fragment .fade-in-then-semi-out}
+
+:::
+
+## The "So What?" Test
+
+After writing your literature review, ask:
+
+- Why does this matter?
+- How does this justify MY research?
+- What unique contribution will I make?
+- Is it clear what gap I'm addressing?
+
+# Wrap-up {background-color="#041614"}
+
+## Summary - 10 Key Points {.scrollable  .smaller}
+
+::: {.incremental}
+
+1. [Literature review = [synthesis]{.rn-fragment rn-color=lightgreen}, not summary]{.fragment .fade-in-then-semi-out}
+1. [Start with a clear, specific [research question]{.rn-fragment rn-color=lightgreen}]{.fragment .fade-in-then-semi-out}
+1. [Set [inclusion/exclusion]{.rn-fragment rn-color=lightgreen} criteria systematically]{.fragment .fade-in-then-semi-out }
+1. [Read strategically using the [three-pass method]{.rn-fragment rn-color=lightgreen}]{.fragment .fade-in-then-semi-out}
+1. [Take [structured notes]{.rn-fragment rn-color=lightgreen} that support analysis]{.fragment .fade-in-then-semi-out}
+1. [Ask [critical questions]{.rn-fragment rn-color=lightgreen}, don't just accept findings]{.fragment .fade-in-then-semi-out}
+1. [Identify [themes]{.rn-fragment rn-color=lightgreen} and organize meaningfully]{.fragment .fade-in-then-semi-out}
+1. [[Synthesize]{.rn-fragment rn-color=lightgreen} across studies - show patterns, contradictions, gaps]{.fragment .fade-in-then-semi-out}
+1. [Build an argument that [justifies YOUR research]{.rn-fragment rn-color=lightgreen}]{.fragment .fade-in-then-semi-out}
+1. [[Structure]{.rn-fragment rn-color=lightgreen} clearly and write with purpose]{.fragment .fade-in-then-semi-out}
+
+:::
+
+## {background-image="https://images.unsplash.com/photo-1607865100697-bf4c52178e91?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" background-size="cover" background-color="black" background-opacity="0.5"}
+
+<br>
+<br>
+<br>
+<br>
+
+::: {.columns}
+::: {.column}
+[Thank You :)]{.r-fit-text}
+
+[*Finished thesis is the best thesis.*]{.r-fit-text}
+:::
+::: {.column}
+:::
+:::
+<!-- end columns -->
