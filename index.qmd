@@ -18,6 +18,7 @@ filters:
     - roughnotation
 incremental: false   
 lightbox: true
+footer: "[Home Slide Deck](https://sara-institute.github.io/gju-literature-review/)"
 ---
 
 ```{r}
@@ -57,10 +58,12 @@ Exec. Director, [SARA]{.rn-fragment rn-color=skyblue}
 
 1. We will have 2-3 [interactive activities]{.rn-fragment rn-color=lavender}
 
-1. All [slides]() will be [shared]{.rn-fragment rn-color=orange} after the session
+1. All [slides](https://sara-institute.github.io/gju-literature-review/) will be [shared]{.rn-fragment rn-color=orange} after the session
 
 ::: notes
 Note slide number
+
+Blue color link more info
 :::
 
 ## Your Turn: Poll 1 {background-color="#10655C"}
@@ -197,7 +200,7 @@ countdown(minutes = 2)
 
 # Research Questions & Scope {background-color="#041614"}
 
-## The Foundation - Research Question {.smaller}
+## The Foundation - Research Question {background-color="lavender"}
 
 <br>
 <br>
@@ -336,8 +339,9 @@ flowchart LR
 
 :::
 
-## [Pass 2: ACTIVE READING]{.rn-fragment rn-color=orange} (20-30 minutes per paper) {.smaller}
+## [[Pass 2: ACTIVE READING]{.rn-fragment rn-color=orange} (20-30 minutes per paper)]{.r-fit-text}
 
+::: {.incremental}
 - [**Do this for:**]{.rn-fragment rn-color=orange} "Highly Relevant" papers
 - [**Read:**]{.rn-fragment rn-color=orange} Full paper but strategically
     - Introduction: What's the question and why does it matter?
@@ -346,9 +350,11 @@ flowchart LR
     - Discussion: What do THEY think it means?
 - [**Action:**]{.rn-fragment rn-color=orange} Highlight key points, take structured notes
 - [**Ask:**]{.rn-fragment rn-color=orange} What's the main contribution? How does this relate to MY question?
+:::
 
-## [Pass 3: DEEP READING]{.rn-fragment rn-color=tomato} (1-2 hours per paper) {.smaller}
+## [[Pass 3: DEEP READING]{.rn-fragment rn-color=tomato} (1-2 hours per paper)]{.r-fit-text}
 
+::: {.incremental}
 - [**Do this for:**]{.rn-fragment rn-color=tomato} 5-10 most critical papers
 - [**Read:**]{.rn-fragment rn-color=tomato} Every word, every citation, every detail
 - [**Action:**]{.rn-fragment rn-color=tomato}
@@ -357,6 +363,7 @@ flowchart LR
     - Follow up on key citations
     - Connect to theoretical frameworks
 - [**Ask:**]{.rn-fragment rn-color=tomato} Can I reproduce their logic? What are unstated assumptions?
+:::
 
 ## The Cornell Note-Taking System {background-color="black"}
 
@@ -376,6 +383,7 @@ Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
 
 ## Key Principles {.scrollable}
 
+::: {.incremental}
 1. [**Consistency**]{.rn-fragment rn-type=box rn-color=green}
     - Use the same format for every paper
     - Makes it easier to compare and synthesize later
@@ -393,26 +401,33 @@ Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
 1. [**Connected**]{.rn-fragment rn-type=box rn-color=green}
     - Note relationships to other papers
     - Build your own web of literature
+:::    
 
 ## [Pro Tips ✅ DO:]{.rn-fragment rn-color=lightgreen}
 
+::: {.incremental}
 - Take [**notes immediately**]{.rn-fragment rn-color=lightgreen} after reading (while fresh)
 - Always [**include page**]{.rn-fragment rn-color=lightgreen} numbers for quotes
 - [**Tag/categorize**]{.rn-fragment rn-color=lightgreen} by emerging themes
 - Note your [**gut reactions**]{.rn-fragment rn-color=lightgreen} and questions
+:::
 
 ## [Pro Tips ❌ DON'T:]{.rn-fragment rn-color=tomato}
 
+::: {.incremental}
 - Just highlight in the [**PDF**]{.rn-fragment rn-color=tomato} (you'll never look again)
 - Rely on [**memory**]{.rn-fragment rn-color=tomato} (you'll forget)
 - [**Copy**]{.rn-fragment rn-color=tomato} large chunks without paraphrasing (plagiarism risk)
 - Wait until you've [**read 20 papers**]{.rn-fragment rn-color=tomato} to start taking notes (overwhelming)
+:::
 
 # Synthesis & Argumentation {background-color="#041614"}
 
 ## Summary vs. Synthesis
 
-> This is where most literature reviews fail.
+> This is where most literature reviews [fail]{.rn-fragment rn-color=tomato}.
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXBnN2djNDJnOTkza3RpNm5uY2V5NnA2ZWlqNDdxcDYwa3g0NDAxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YeYwAzWYBBfTY80toE/giphy.gif)
 
 ## Summary (What people often do) {.smaller}
 
@@ -439,7 +454,7 @@ access for rural students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
 - No pattern recognition
 - No critical evaluation
 - No argument
-- Boring to read!
+- 🥱 Boring to read!
 :::
 :::
 :::
@@ -463,7 +478,7 @@ access for rural students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
 - Identifies patterns (STEM, undergraduate focus)
 - Notes contradictions or variations
 - Identifies gaps
-- Builds toward a point (justifies new research)
+- Builds toward a 🤩 point (justifies new research)
 :::
 :::
 :::
@@ -571,11 +586,37 @@ access for rural students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
 
 # Writing & Structure {background-color="#041614"}
 
-## Academic Voice/Language
+## Literature Review Structure {.scrollable}
 
+::: {.incremental}
+- [**Introduction**]{.rn-fragment rn-color="orange"} (10-15%) What it does:
+    - Sets the context
+    - States your research question
+    - Explains scope and boundaries
+    - Previews organization
+    - Hooks the reader
+
+- [**Body**]{.rn-fragment rn-color="orange"} (70-80%) What it does:
+    - Organized by your chosen structure (usually thematic)
+    - Each section builds your argument
+    - Shows what's known, what's debated, what's missing
+    - Connects ideas across studies
+
+- [**Conclusion**]{.rn-fragment rn-color="orange"} (10-15%) What it does:
+    - Synthesizes main findings
+    - Highlights key gaps
+    - Justifies your research
+    - Transitions to your study
+:::
+
+
+## Academic [Voice]{.rn-fragment rn-color="lavender"}
+
+::: {.incremental}
 - Maintain third person (avoid "I think")
 - Be authoritative but not absolute
 - Use appropriate hedging: "suggests," "indicates," "appears to"
+:::
 
 ## Top ❌ 10 Mistakes to Avoid {.scrollable}
 
@@ -594,18 +635,20 @@ access for rural students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
 
 :::
 
-## The "So What?" Test
+## The ["So What?"]{.rn-fragment rn-color="lightgreen"} Test
 
-After writing your literature review, ask:
+*After writing your literature review, ask:*
 
+::: {.incremental}
 - Why does this matter?
 - How does this justify MY research?
 - What unique contribution will I make?
 - Is it clear what gap I'm addressing?
+:::
 
 # Wrap-up {background-color="#041614"}
 
-## Summary - 10 Key Points {.scrollable  .smaller}
+## Summary - 10 Key Points {.scrollable}
 
 ::: {.incremental}
 
