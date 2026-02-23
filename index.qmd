@@ -5,7 +5,7 @@ format:
     revealjs:
         title-slide-attributes: 
             data-background-image: "https://images.unsplash.com/photo-1468476775582-6bede20f356f?q=80&w=1489&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-            data-background-size: cover
+            data-background-size: fit
             data-background-position: center
 logo: images/logo-gju.png
 slide-number: true
@@ -18,14 +18,8 @@ filters:
     - roughnotation
 incremental: false   
 lightbox: true
-footer: "[Home Slide Deck](https://sara-institute.github.io/gju-literature-review/)"
+footer: "[sara-institute.github.io/gju-literature-review/](https://sara-institute.github.io/gju-literature-review/)"
 ---
-
-```{r}
-#| include: false
-
-library(countdown)
-```
 
 ## About me
 
@@ -56,7 +50,7 @@ Exec. Director, [SARA]{.rn-fragment rn-color=skyblue}
 
 1. Use [chat for questions]{.rn-fragment rn-color=lightgreen} - I will monitor throughout
 
-1. We will have 2-3 [interactive activities]{.rn-fragment rn-color=lavender}
+1. We have [slide numbers]{.rn-fragment rn-color=lavender}
 
 1. All [slides](https://sara-institute.github.io/gju-literature-review/) will be [shared]{.rn-fragment rn-color=orange} after the session
 
@@ -66,52 +60,9 @@ Note slide number
 Blue color link more info
 :::
 
-## Your Turn: Poll 1 {background-color="#10655C"}
-
-[***Have you written a literature review before?***]{.r-fit-text}
-
-![Scan or click below link to see website](images/poll1.png){width="30%" fig-align="left"}
-
-::: aside
-<https://linkto.run/p/3E839J93>
-:::
-
-```{r}
-#| echo: false
-
-countdown(minutes = 2)
-```
-
-## Your Turn: Poll 2  {background-color="#10655C"}
-
-[***What's your biggest literature review challenge?***]{.r-fit-text}
-
-![Scan or click below link to see website](images/poll2.png){width="30%" fig-align="left"}
-
-::: aside
-<https://linkto.run/p/6KYDYNER>
-:::
-
-```{r}
-#| echo: false
-
-countdown(minutes = 2)
-```
-
 ## {background-color="black"} 
 
-<center>
-
-<br>
-<br>
-
-::: {.r-stack}
-![](images/meme-article.jpg){.fragment width="40%"}
-
-![](images/meme-snow.jpg){.fragment width="400"}
-
-![](images/meme-digging.gif){.fragment width="550"}
-:::
+![](images/lit-rev-snow.jpg){fig-align="center" width="45%"}
 
 # Introduction & Foundations {background-color="#041614"}
 
@@ -181,22 +132,6 @@ Argumentation
 [**Synthesis approach:**]{.rn-fragment rn-color=lightgreen} Research consistently demonstrates the effectiveness of online learning, though results vary by context (Smith, 2020; Jones, 2021; Kumar, 2022). While undergraduate populations show positive outcomes, graduate-level effectiveness remains underexplored, particularly in professional education (Lee, 2023).
 
 :::
-
-## Your Turn {background-color="#10655C"}
-
-<br>
-
-### *Quick Chat Check*
-
-<br>
-
-**Type in chat: What's ONE word that captures the difference between these two approaches?**
-
-```{r}
-#| echo: false
-
-countdown(minutes = 2)
-```
 
 # Research Questions & Scope {background-color="#041614"}
 
@@ -320,7 +255,7 @@ flowchart LR
 
 <br>
 
-> Not all papers deserve equal time.
+> [Not all papers deserve equal time.]{.rn-fragment}
 
 <br>
 
@@ -367,17 +302,17 @@ flowchart LR
 
 ## The Cornell Note-Taking System {background-color="black"}
 
-![](https://cdn.prod.website-files.com/622072bb15578473cfe8ef5a/66a0ce8b872d465d063e2ee2_IMG_0069.jpg){width="35%" fig-align="center"}
+![](https://cdn.prod.website-files.com/622072bb15578473cfe8ef5a/66a0ce8b872d465d063e2ee2_IMG_0069.jpg){width="40%" fig-align="center"}
 
-::: {.aside}
+::: {.footer}
 Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
 :::
 
 ## The Cornell Note-Taking System {background-color="black"}
 
-![](https://cdn.prod.website-files.com/622072bb15578473cfe8ef5a/66a0ce99e47e489d108664fd_IMG_0070.jpg){width="35%" fig-align="center"}
+![](https://cdn.prod.website-files.com/622072bb15578473cfe8ef5a/66a0ce99e47e489d108664fd_IMG_0070.jpg){width="40%" fig-align="center"}
 
-::: {.aside}
+::: {.footer}
 Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
 :::
 
@@ -423,11 +358,19 @@ Source: [Goodnotes](https://www.goodnotes.com/blog/cornell-notes)
 
 # Synthesis & Argumentation {background-color="#041614"}
 
-## Summary vs. Synthesis
+## Summary vs. Synthesis {background-color="black"}
 
-> This is where most literature reviews [fail]{.rn-fragment rn-color=tomato}.
-
+::: {.columns}
+::: {.column}
+<br>
+<br>
+This is where most literature reviews [fail]{.rn-fragment rn-color=tomato}.
+:::
+::: {.column}
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExeXBnN2djNDJnOTkza3RpNm5uY2V5NnA2ZWlqNDdxcDYwa3g0NDAxciZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YeYwAzWYBBfTY80toE/giphy.gif)
+:::
+:::
+<!-- end columns -->
 
 ## Summary (What people often do) {.smaller}
 
@@ -543,6 +486,10 @@ access for rural students.]{.rn-fragment rn-type=strike-through rn-color=tomato}
 ## Common Organization Strategies
 
 > [**THEMATIC:**]{.rn-fragment rn-color=lavender} (most common) Organize by topics/themes
+
+. . .
+
+*What pedagogical approaches are most effective for teaching R language to graduate students in soical sciences?*
 
 ::: {.incremental}
 - Theme 1: Effectiveness factors
