@@ -39,10 +39,13 @@ Exec. Director, [SARA]{.rn-fragment rn-color=skyblue}
 
 [{{< fa brands linkedin >}} ajay-kumar-koli](https://www.linkedin.com/in/ajay-kumar-koli/)
 
-
 :::
 :::
 <!-- end columns -->
+
+::: {.footer}
+Slides are made with ❤️ & [Quarto](https://quarto.org/)
+:::
 
 ## Quick Logistics:
 
